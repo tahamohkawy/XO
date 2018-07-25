@@ -8,7 +8,7 @@ contract XO {
 
     bytes8[3][3] board;
 
-    function XO(address _playerX,address _playerO) public {
+    function Constructor(address _playerX,address _playerO) public {
         moderator = msg.sender;
         playerX = _playerX;
         playerO = _playerO;
